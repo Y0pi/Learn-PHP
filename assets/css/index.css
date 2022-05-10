@@ -1,1 +1,7 @@
+/* BASE */
 @import url("./parameters.css");
+
+/* COMPONENTS */
+@import url("./components/_calculatrice.css");
+
+/* PAGES */
