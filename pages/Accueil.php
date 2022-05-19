@@ -1,6 +1,4 @@
 <?php
-// include '../sql/mysqlConnect.php';
-
 include '../components/Header.php';
 include '../components/NavBar.php';
 ?>
@@ -10,6 +8,5 @@ include '../components/NavBar.php';
 </div>
 
 <?php
-include '../components/Calculatrice.php';
 include '../components/Footer.php';
 ?>

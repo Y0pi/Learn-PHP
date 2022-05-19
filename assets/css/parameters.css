@@ -1,11 +1,28 @@
-* {
-    margin: 0;
-    padding: 0;
-    color: white;
+@font-face {
+    font-family: "lightPlus";
+    src: url("../assets/fonts/Roboto-Thin.ttf");
+}
+@font-face {
+    font-family: "light";
+    src: url("../assets/fonts/Roboto-Light.ttf");
+    
+}
+@font-face {
+    font-family: "regular";
+    src: url("../assets/fonts/Roboto-Regular.ttf");
 }
 
-body {
-    background-color: #333;
+:root {
+    --font-light-plus: "lightPlus", sans-serif;
+    --font-light: 'light', sans-serif;
+    --font-regular: 'regualar', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-regular);
+    color: white;
 }
 
 a {
@@ -13,5 +30,5 @@ a {
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
 }
